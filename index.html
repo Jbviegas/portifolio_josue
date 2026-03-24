@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="autor" content="Josue Viegas">
+    <meta name="description" content="Portfólio do Josue Viegas,                 
+    desenvolvedor Full Stack especializado em criar experiências                
+     digitais incríveis. Conheça meus projetos e entre em contato.">
+    <meta name="robots" content="index, follow">
+
+    <link rel="icon" type="image/svg+xml" href="./assets/img/favicon.svg">
+
+    <title>Portifólio do Josue</title>
+
+</head>
+
+<body>
+    <!-- cabeçalho -->
+    <header>
+        <!--titulo cabeçalho -->
+        <a href="index.html" id="titulo">Portifolio</a>
+
+        <!-- Menu de navegação -->
+        <nav>
+            <ul class="menu-list">
+                <li><a href="#hero">Ínicio</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- seção principal -->
+    <main>
+        <!--Seção Hero -->
+        <section id="hero" class="section-containner hero-containner">
+            <article class="hero-content">
+                <span>👋 Olá eu sou o Josue</span>
+                <h1>Desenvolvedor Full Stack</h1>
+                <p>Transformo idéias em código,
+                    e crio experiências digitais incríveis</p>
+
+                <div class="buttons-containner">
+                    <a href="#contact" class="botao">Entre em contato</a>
+                    <a href="#about" class="botao-outline">Saiba mais...</a>
+                </div>
+            </article>
+
+            <!-- Imagem da seção Hero -->
+            <figure class="hero-image">
+                <img src="./assets/img/avatar_dev_man.svg" alt="Foto do altor do site" class="float animation">
+            </figure>
+
+        </section>
+
+        <!--Seção About -->
+        <section id="about" class="section-containner about-containner">
+            <!-- Imagem da seção About -->
+            <figure class="about-image">
+                <img src="./assets/img/foto_dev_man.svg" alt="Foto do altor do perfil do autor">
+            </figure>
+
+            <article class="about-content">
+                <h2>Sobre Mim</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br>
+                    Consequuntur reiciendis illum assumenda, vero hic nemo<br>
+                    deserunt dolore voluptatem ad obcaecati odit ratione tenetur est cumque aperiam similique?<br>
+                    Labore, odio. Tempora.</p>
+
+                <!-- Links Github e Currículo-->
+                <div class="about-buttons-data">
+
+                    <!-- Links -->
+                    <div class="button-containner">
+                        <a href="#" target="_blank" class="botão">GitHub</a>
+                        <a href="#" target="_blank" class="botão-outline">Currículo</a>
+                    </div>
+
+                    <!-- Dados -->
+                    <div class="data-containner">
+                        <div class="data-item">
+                            <span class="data-number">100</span>
+                            <span class="data-label">Seguidores</span>
+                        </div>
+                        <div class="data-item">
+                            <span class="data-number">10</span>
+                            <span class="data-label">Repositório</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <!--Seção Projects -->
+        <section id="projects" class="section-containner projects-containner">
+
+            <!-- Swipper Containner -->
+            <div class="swiper project-swipper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <article class="project-card">
+
+                            <!-- Icone da tecnologia padrão do projeto-->
+                            <figure class="project-image">
+                                <img src="./assets/icons/languages/github.svg" alt="icone github">
+                            </figure>
+
+                            <!-- Conteúdo do projeto -->
+                            <div class="project-content">
+                                <h3>Projeto Github</h3>
+                                <p>Projeto desenvolvido no Github</p>
+
+                                <div class="project-tags">
+                                    <span class="tag">Github</span>
+                                </div>
+
+                                <!-- Links dos Projetos -->
+                                <div class="project-button">
+                                    <a href="#" target="_blank" class="botao botao-sm">
+                                        Github
+                                    </a>
+
+                                    <a href="#" target="_blank" class="botao-outline botao-sm">
+                                        Deploy
+                                    </a>
+                                </div>
+                            </div>
+
+                        </article>
+                    </div>
+                </div>
+
+                <!-- Botões de navegação -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+
+                <!-- Paginação -->
+                <div class="swiper-pagination"></div>
+
+            </div>
+
+        </section>
+        <!--Seção Contact -->
+        <section id="contact" class="section-containner contact-containner">
+
+            <article class="contact-info">
+                <h2>Entre em Contato Comigo</h2>
+                <p>Sinta-se a vontade para entrar em contato comigo</p>
+
+                <!-- REDES SOCIAIS -->
+                <div class="social-containner">
+
+                    <a href="#" target="_blank" class="social-icons" aria-label="Linkedlin">
+                        <img src="./assets/icons/social/linkedin.svg" alt="Link do Linkedlin">
+                    </a>
+
+                    <a href="#" target="_blank" class="social-icons" aria-label="Github">
+                        <img src="./assets/icons/social/github.svg" alt="Link do Github">
+                    </a>
+
+                    <a href="#" target="_blank" class="social-icons" aria-label="Instagram">
+                        <img src="./assets/icons/social/instagram.svg" alt="Link do Instagram">
+                    </a>
+
+                </div>
+
+            </article>
+
+            <!-- Formulário de Contato-->
+            <form action="http://127.0.0.1:5500/sucess.html" method="POST" id="formulario">
+
+                <label for="nome">Nome</label>
+                <input id="nome" name="nome" type="text" placeholder="Digite o seu nome completo">
+                <span id="erro-nome"></span>
+
+                <label for="nome">E-mail</label>
+                <input id="email" name="email" type="text" placeholder="Digite o seu E-mail">
+                <span id="erro-email"></span>
+
+                <label for="assunto">Assunto</label>
+                <input id="assunto" name="assunto" type="text" placeholder="Digite o assunto da mensagem">
+                <span id="erro-assunto"></span>
+
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" placeholder="Digite a sua mensagem"></textarea>
+                <span id="erro-mensagem"></span>
+
+                <button class="botao" type="submit">Enviar Menagem</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        Desenvolvido por josue
+    </footer>
+
+    <!-- SWIPER JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Script JavaScript -->
+    <script src="./assets/js/scripts.js"></script>
+
+</body>
+
+</html>
