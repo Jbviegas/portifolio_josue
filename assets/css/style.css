@@ -532,33 +532,33 @@ footer {
     filter: brightness(0) saturate(100%) invert(11%) sepia(69%) saturate(3759%) hue-rotate(256deg) brightness(101%) contrast(96%);
 }
 
-.contact-container{
+.contact-container {
     display: flex;
+    justify-content: space-between;
     max-width: 70vw;
     margin: 0 auto;
 }
 
-.contact-info{
-display: flex;
-flex-direction: column;
-height: 676px;
-width: 50vw;
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    height: 676px;
+    width: 30vw;
 }
 
-#formulario{
-display: flex;
-flex-direction: column;
-height: 676px;
-padding: 50px;
-width: 50vw;
+#formulario {
+    display: flex;
+    flex-direction: column;
+    height: 676px;
+    width: 30vw;
 }
 
-.social-container{
+.social-container {
     display: flex;
     justify-content: space-evenly;
     margin-top: 50px;
 }
 
-.input-form{
+.input-form {
     margin-bottom: 40px;
 }
