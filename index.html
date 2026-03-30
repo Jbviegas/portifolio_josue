@@ -2,6 +2,7 @@
 <html lang="pt-br">
 
 <head>
+
     <!-- Fontes do Google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,48 +12,59 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="autor" content="Josue Viegas">
-    <meta name="description" content="Portfólio do Josue Viegas,                 
-    desenvolvedor Full Stack especializado em criar experiências                
-     digitais incríveis. Conheça meus projetos e entre em contato.">
+    <meta name="author" content="Rafael Queiróz">
+    <meta name="description" content="Portfólio Pessoal do Rafael Queiróz, 
+                desenvolvedor Full Stack especializado em criar experiências 
+                digitais incríveis. Conheça meus projetos e entre em contato.">
     <meta name="robots" content="index, follow">
 
     <link rel="icon" type="image/svg+xml" href="./assets/img/favicon.svg">
+
+    <!-- SWIPER CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+    <!-- CSS principal da página -->
     <link rel="stylesheet" href="./assets/css/style.css">
 
-    <title>Portifólio do Josue</title>
-
+    <title>Portfólio do Josue</title>
 </head>
 
 <body>
-    <!-- cabeçalho -->
-    <header>
-        <div class="menu-content">
-            <!--titulo cabeçalho -->
-            <a href="index.html" id="titulo">Portifolio</a>
 
-            <!-- Menu de navegação -->
+    <!-- Cabeçalho da página -->
+    <header>
+
+        <div class="menu-content">
+
+            <!-- Título do Cabeçalho -->
+            <a href="index.html" id="titulo">Portfólio</a>
+
+            <!-- Menu de Navegação -->
             <nav>
                 <ul class="menu-list">
-                    <li><a href="#hero">Ínicio</a></li>
+                    <li><a href="#hero">Início</a></li>
                     <li><a href="#about">Sobre</a></li>
                     <li><a href="#projects">Projetos</a></li>
-                    <li><a href="#contact">Contato</a></li>
+                    <li><a href="#contact">Contatos</a></li>
                 </ul>
             </nav>
 
         </div>
+
     </header>
 
-    <!-- seção principal -->
+    <!-- Seção Principal da página -->
     <main>
-        <!--Seção Hero -->
+
+        <!-- Seção Hero -->
         <section id="hero" class="section-container hero-container">
+
+            <!-- Boas Vindas -->
             <article class="hero-content">
-                <span>👋 Olá eu sou o Josue</span>
+                <span>👋 Olá, eu sou o Josue</span>
                 <h1>Desenvolvedor Full Stack</h1>
-                <p>Transformo idéias em código,
-                    e crio experiências digitais incríveis</p>
+                <p>Transformo ideias em,
+                    código e crio experiências digitais incríveis.</p>
 
                 <div class="buttons-container">
                     <a href="#contact" class="botao">Entre em contato</a>
@@ -60,91 +72,31 @@
                 </div>
             </article>
 
-            <!-- Imagem da seção Hero -->
+            <!-- Imagem da Seção Hero -->
             <figure class="hero-image">
-                <img src="./assets/img/foto_dev_man.svg" alt="Foto do altor do site" class="float-animation">
+                <img src="./assets/img/avatar_dev_man.svg" alt="Foto do autor do site" class="float-animation">
             </figure>
-
         </section>
 
-        <!--Seção About -->
+        <!-- Seção About -->
         <section id="about" class="section-container about-container">
-            <!-- Imagem da seção About -->
-            <figure class="about-image">
-                <img src="./assets/img/avatar_dev_man.svg" alt="Foto do altor do perfil do autor">
-            </figure>
 
-            <article class="about-content">
-                <h2>Sobre Mim</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br>
-                    Consequuntur reiciendis illum assumenda, vero hic nemo<br>
-                    deserunt dolore voluptatem ad obcaecati odit ratione tenetur est cumque aperiam similique?<br>
-                    Labore, odio. Tempora.</p>
 
-                <!-- Links Github e Currículo-->
-                <div class="about-buttons-data">
 
-                    <!-- Links -->
-                    <div class="buttons-container">
-                        <a href="#" target="_blank" class="botão botao">GitHub</a>
-                        <a href="#" target="_blank" class="botão-outline botao">Currículo</a>
-                    </div>
-
-                    <!-- Dados -->
-                    <div class="data-container">
-                        <div class="data-item">
-                            <span class="data-number">100</span>
-                            <span class="data-label">Seguidores</span>
-                        </div>
-                        <div class="data-item">
-                            <span class="data-number">10</span>
-                            <span class="data-label">Repositório</span>
-                        </div>
-                    </div>
-                </div>
-            </article>
         </section>
 
-        <!--Seção Projects -->
+        <!-- Seção Projects -->
         <section id="projects" class="section-container projects-container">
 
-            <!-- Swipper container -->
-            <div class="swiper project-swipper">
+            <h2>Meus Projetos</h2>
+
+            <!-- Swiper Container -->
+            <div class="swiper projects-swiper">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <article class="project-card">
 
-                            <!-- Icone da tecnologia padrão do projeto-->
-                            <figure class="project-image">
-                                <img src="./assets/icons/languages/github.svg" alt="icone github">
-                            </figure>
-
-                            <!-- Conteúdo do projeto -->
-                            <div class="project-content">
-                                <h3>Projeto Github</h3>
-                                <p>Projeto desenvolvido no Github</p>
-
-                                <div class="project-tags">
-                                    <span class="tag">Github</span>
-                                </div>
-
-                                <!-- Links dos Projetos -->
-                                <div class="project-buttons">
-                                    <a href="#" target="_blank" class="botao botao-sm">
-                                        Github
-                                    </a>
-
-                                    <a href="#" target="_blank" class="botao-outline botao-sm">
-                                        Deploy
-                                    </a>
-                                </div>
-                            </div>
-
-                        </article>
-                    </div>
                 </div>
 
-                <!-- Botões de navegação -->
+                <!-- Botões de Navegação -->
                 <div class="swiper-button-next"></div>
                 <div class="swiper-button-prev"></div>
 
@@ -182,7 +134,10 @@
             </article>
 
             <!-- Formulário de Contato -->
-            <form id="formulario">
+            <form id="formulario" action="https://formsubmit.co/c8ad9c88356bbbc8a475a34c0a4dea14" method="POST">
+
+                <input type="hidden" name="_next" value="http://localhost:5500/success.html">
+                <input type="hidden" name="_captcha" value="false">
 
                 <label for="nome">Nome</label>
                 <input id="nome" name="nome" type="text" placeholder="Digite o seu nome completo">
@@ -204,20 +159,21 @@
 
             </form>
 
+
         </section>
-        
+
     </main>
 
-    <!-- Rodapé -->
+    <!-- Rodapé da página -->
     <footer>
-        Desenvolvido por josue
+        Desenvolvido por Josue Viegas - 2026
     </footer>
 
     <!-- SWIPER JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-    <!-- Script JavaScript -->
-    <script src="./assets/js/scripts.js"></script>
+    <!-- Script JavaScript principal da página -->
+    <script src="./assets/js/script.js"></script>
 
 </body>
 
